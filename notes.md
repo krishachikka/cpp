@@ -24,11 +24,12 @@ exe file is a machine instructions of the source code
     if i dont use namespace i'll have to use 
     std::cout<< "";
     everytime i wanna print something
-3. cout -> console out
+3. cout -> console out/ character output
 4. <<endl; -> end the line i.e. next line
-5. cin>> "variable" -> for taking the inputs
+5. cin>> "variable" => for taking the inputs /character input
+6. int a { 2 } => proper initialization 
 
-6. Arrays
+7. Arrays
 
     int myArray[5]; // Declaration
     int anotherArray[] = {1, 2, 3, 4, 5}; // Declaration with initialization
@@ -41,31 +42,31 @@ exe file is a machine instructions of the source code
         // Access and manipulate myArray[i]
     }
 
-    7. Vectors
+8. Vectors
 
-    #include <vector>
+#include <vector>
 
-    std::vector<int> myVector; // Declaration
-    std::vector<int> anotherVector = {1, 2, 3, 4, 5}; // Declaration with initialization
+std::vector<int> myVector; // Declaration
+std::vector<int> anotherVector = {1, 2, 3, 4, 5}; // Declaration with initialization
 
-    int size = myVector.size();
+int size = myVector.size();
 
-    int element = myVector[2]; // Accessing the third element
+int element = myVector[2]; // Accessing the third element
 
-    for (int value : myVector) {
-        // Access and manipulate each 'value'
-    }
+for (int value : myVector) {
+    // Access and manipulate each 'value'
+}
 
-    myVector.push_back(6); // Add element to the end
-    myVector.push_back(7); // Add element to the end
-    myVector.pop_back();   // Remove the last element
+myVector.push_back(6); // Add element to the end
+myVector.push_back(7); // Add element to the end
+myVector.pop_back();   // Remove the last element
 
-8. Typecasting
+9. Typecasting
 
     int intValue = 5;
     double doubleValue = intValue; // Implicit conversion from int to double
 
-9. Strings
+10. Strings
 
     #include <string>
     std::string myString = "Hello, World!";
@@ -82,7 +83,7 @@ exe file is a machine instructions of the source code
     int intValue;
     std::stringstream(str) >> intValue; // Convert string to int
 
-10. Pointers
+11. Pointers
 
     int* intPointer;   // Pointer to an integer
     double* doublePointer; // Pointer to a double
